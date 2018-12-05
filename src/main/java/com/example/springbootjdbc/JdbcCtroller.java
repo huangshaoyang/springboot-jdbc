@@ -33,6 +33,7 @@ public class JdbcCtroller {
         List<Auth_User> userList = jdbcTemplate.queryForList(sql, Auth_User.class);
 
         System.out.println(list);
+        System.out.println(list);
 
         System.out.println(userList);
         Connection conn = null;
